@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.2">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="LDTProject" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="Control">
+      <PolygonComponent name="fixation">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.01, 0.01)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="Target">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Target" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_valid" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="'y','n'" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="$word_valid_status" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="D1">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_1" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_2" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D4">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_3" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D5">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_4" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Font_Size">
+      <TextComponent name="Target_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="set every repeat" name="letterHeight"/>
+        <Param val="Target_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="6.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_valid_1" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <PolygonComponent name="fixation_2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.01, 0.01)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="'y','n'" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="$word_valid_status_1" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="D1_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="set every repeat" name="letterHeight"/>
+        <Param val="D1_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_0" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D2_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="set every repeat" name="letterHeight"/>
+        <Param val="D2_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_01" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D3_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="set every repeat" name="letterHeight"/>
+        <Param val="D3_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_02" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D4_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="set every repeat" name="letterHeight"/>
+        <Param val="D4_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_03" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D5_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="font_size" valType="num" updates="set every repeat" name="letterHeight"/>
+        <Param val="D5_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_04" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Speed_Res">
+      <PolygonComponent name="fixation_3">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.01, 0.01)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="Target_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Target_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$speed_res" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_valid_2" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param val="'y','n'" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="$word_valid_status_2" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="D1_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D1_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$speed_res" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_00" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D2_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D2_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$speed_res" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_001" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D3_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D3_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$speed_res" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_002" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D4_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D4_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$speed_res" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_003" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="D5_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="D5_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(random()-0.5, random()-0.5)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$speed_res" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word_invalid_004" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Introduction">
+      <TextComponent name="Intro">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Intro" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Hello,&amp;#10;Thank you for being a part of this study!&amp;#10;This project is a part of PSY310 Lab in Psychology course. We ask you to ensure that you are seated in a quiet place for the next 10-15 mins and read the following instructions carefully.&amp;#10;Click anywhere on the screen to move forward." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="Instructions">
+      <TextComponent name="Instr">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Instr" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Ensure that you are not disturbed for the next 10-15 mins. &amp;#10;You will be performing a simple linguistic study, where you have to find a spoken English word among a group of non-sensical words. The spoken English word might or might not be present.&amp;#10;If you feel that the word is present, press 'y' on your keyboard. If you feel that the word is not present, press 'n'.&amp;#10;Continue to answer in the same way till the experiment comes to an end.&amp;#10;HAVE FUN!&amp;#10;Click anywhere on the screen to start the experiment." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse_2">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="Thank_You">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="The experiment is now over. Thank you for being a part of this project!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Introduction"/>
+    <Routine name="Instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_4">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'nreps1': 0, 'nreps2': 1, 'nreps3': 0}, {'nreps1': 1, 'nreps2': 0, 'nreps3': 0}, {'nreps1': 0, 'nreps2': 0, 'nreps3': 1}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="loopTemplate1.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_4" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'word_valid': 'nurse', 'word_valid_status': 'Y', 'word_invalid': 'snure', 'word_invalid_1': 'rabb', 'word_invalid_2': 'gloum', 'word_invalid_3': 'amet', 'word_invalid_4': 'gnaf'}, {'word_valid': 'omen', 'word_valid_status': 'Y', 'word_invalid': 'mone', 'word_invalid_1': 'gayil', 'word_invalid_2': 'rabb', 'word_invalid_3': 'snire', 'word_invalid_4': 'alof'}, {'word_valid': 'silo', 'word_valid_status': 'Y', 'word_invalid': 'lios', 'word_invalid_1': 'ascue', 'word_invalid_2': 'dieft', 'word_invalid_3': 'sifto', 'word_invalid_4': 'geen'}, {'word_valid': 'dole', 'word_valid_status': 'Y', 'word_invalid': 'leod', 'word_invalid_1': 'soule', 'word_invalid_2': 'poney', 'word_invalid_3': 'wrom', 'word_invalid_4': 'rabb'}, {'word_valid': 'play', 'word_valid_status': 'Y', 'word_invalid': 'ptay', 'word_invalid_1': 'trif', 'word_invalid_2': 'teabs', 'word_invalid_3': 'miam', 'word_invalid_4': 'dary'}, {'word_valid': 'rhyme', 'word_valid_status': 'Y', 'word_invalid': 'hyrme', 'word_invalid_1': 'diep', 'word_invalid_2': 'leod', 'word_invalid_3': 'coist', 'word_invalid_4': 'soule'}, {'word_valid': 'which', 'word_valid_status': 'Y', 'word_invalid': 'whicb', 'word_invalid_1': 'lavin', 'word_invalid_2': 'sheap', 'word_invalid_3': 'seter', 'word_invalid_4': 'hyrme'}, {'word_valid': 'fang', 'word_valid_status': 'Y', 'word_invalid': 'gnaf', 'word_invalid_1': 'unon', 'word_invalid_2': 'gluid', 'word_invalid_3': 'chene', 'word_invalid_4': 'nuat'}, {'word_valid': 'vibe', 'word_valid_status': 'Y', 'word_invalid': 'bive', 'word_invalid_1': 'prie', 'word_invalid_2': 'towle', 'word_invalid_3': 'rujor', 'word_invalid_4': 'pras'}, {'word_valid': 'foul', 'word_valid_status': 'Y', 'word_invalid': 'fluo', 'word_invalid_1': 'lise', 'word_invalid_2': 'exhil', 'word_invalid_3': 'phedt', 'word_invalid_4': 'lipe'}, {'word_valid': 'sepia', 'word_valid_status': 'Y', 'word_invalid': 'siepa', 'word_invalid_1': 'siepa', 'word_invalid_2': 'dusko', 'word_invalid_3': 'timay', 'word_invalid_4': 'knim'}, {'word_valid': 'barb', 'word_valid_status': 'Y', 'word_invalid': 'rabb', 'word_invalid_1': 'grem', 'word_invalid_2': 'teub', 'word_invalid_3': 'phel', 'word_invalid_4': 'phedt'}, {'word_valid': 'heist', 'word_valid_status': 'Y', 'word_invalid': 'tishe', 'word_invalid_1': 'mone', 'word_invalid_2': 'lewld', 'word_invalid_3': 'actic', 'word_invalid_4': 'sheap'}, {'word_valid': 'cask', 'word_valid_status': 'Y', 'word_invalid': 'scak', 'word_invalid_1': 'syro', 'word_invalid_2': 'agorn', 'word_invalid_3': 'nuat', 'word_invalid_4': 'poce'}, {'word_valid': 'arena', 'word_valid_status': 'Y', 'word_invalid': 'ranea', 'word_invalid_1': 'seter', 'word_invalid_2': 'metta', 'word_invalid_3': 'cimim', 'word_invalid_4': 'jeyll'}, {'word_valid': 'quake', 'word_valid_status': 'Y', 'word_invalid': 'queak', 'word_invalid_1': 'scak', 'word_invalid_2': 'meony', 'word_invalid_3': 'lipe', 'word_invalid_4': 'diep'}, {'word_valid': 'much', 'word_valid_status': 'Y', 'word_invalid': 'mech', 'word_invalid_1': 'lewld', 'word_invalid_2': 'deabt', 'word_invalid_3': 'fren', 'word_invalid_4': 'diame'}, {'word_valid': 'lame', 'word_valid_status': 'Y', 'word_invalid': 'leam', 'word_invalid_1': 'ampt', 'word_invalid_2': 'twen', 'word_invalid_3': 'lucka', 'word_invalid_4': 'plif'}, {'word_valid': 'resin', 'word_valid_status': 'Y', 'word_invalid': 'snire', 'word_invalid_1': 'lios', 'word_invalid_2': 'lavin', 'word_invalid_3': 'sweer', 'word_invalid_4': 'tirea'}, {'word_valid': 'raze', 'word_valid_status': 'Y', 'word_invalid': 'zear', 'word_invalid_1': 'diame', 'word_invalid_2': 'gyrol', 'word_invalid_3': 'prie', 'word_invalid_4': 'liso'}, {'word_valid': 'beast', 'word_valid_status': 'Y', 'word_invalid': 'teabs', 'word_invalid_1': 'courd', 'word_invalid_2': 'vigro', 'word_invalid_3': 'fiken', 'word_invalid_4': 'rebem'}, {'word_valid': 'pansy', 'word_valid_status': 'Y', 'word_invalid': 'spany', 'word_invalid_1': 'adlet', 'word_invalid_2': 'trif', 'word_invalid_3': 'gloum', 'word_invalid_4': 'ranea'}, {'word_valid': 'phase', 'word_valid_status': 'Y', 'word_invalid': 'sheap', 'word_invalid_1': 'magam', 'word_invalid_2': 'halck', 'word_invalid_3': 'delya', 'word_invalid_4': 'viel'}, {'word_valid': 'dwell', 'word_valid_status': 'Y', 'word_invalid': 'lewld', 'word_invalid_1': 'fren', 'word_invalid_2': 'coist', 'word_invalid_3': 'lewld', 'word_invalid_4': 'pera'}, {'word_valid': 'helix', 'word_valid_status': 'Y', 'word_invalid': 'exhil', 'word_invalid_1': 'poney', 'word_invalid_2': 'rujor', 'word_invalid_3': 'kint', 'word_invalid_4': 'theyr'}, {'word_valid': 'thete', 'word_valid_status': 'N', 'word_invalid': 'coist', 'word_invalid_1': 'pera', 'word_invalid_2': 'spiw', 'word_invalid_3': 'bauto', 'word_invalid_4': 'prige'}, {'word_valid': 'exhil', 'word_valid_status': 'N', 'word_invalid': 'laip', 'word_invalid_1': 'rebem', 'word_invalid_2': 'geen', 'word_invalid_3': 'soule', 'word_invalid_4': 'chont'}, {'word_valid': 'leod', 'word_valid_status': 'N', 'word_invalid': 'pelk', 'word_invalid_1': 'sabil', 'word_invalid_2': 'koly', 'word_invalid_3': 'grem', 'word_invalid_4': 'clead'}, {'word_valid': 'pelk', 'word_valid_status': 'N', 'word_invalid': 'ampt', 'word_invalid_1': 'laip', 'word_invalid_2': 'buoya', 'word_invalid_3': 'tishe', 'word_invalid_4': 'sweer'}, {'word_valid': 'miam', 'word_valid_status': 'N', 'word_invalid': 'westa', 'word_invalid_1': 'thenk', 'word_invalid_2': 'prige', 'word_invalid_3': 'ruso', 'word_invalid_4': 'teub'}, {'word_valid': 'plif', 'word_valid_status': 'N', 'word_invalid': 'fiken', 'word_invalid_1': 'lucka', 'word_invalid_2': 'theyr', 'word_invalid_3': 'plif', 'word_invalid_4': 'jelew'}, {'word_valid': 'fren', 'word_valid_status': 'N', 'word_invalid': 'diare', 'word_invalid_1': 'dieft', 'word_invalid_2': 'grem', 'word_invalid_3': 'voipt', 'word_invalid_4': 'mause'}, {'word_valid': 'sewe', 'word_valid_status': 'N', 'word_invalid': 'rena', 'word_invalid_1': 'phel', 'word_invalid_2': 'cimim', 'word_invalid_3': 'malb', 'word_invalid_4': 'galer'}, {'word_valid': 'evol', 'word_valid_status': 'N', 'word_invalid': 'aboot', 'word_invalid_1': 'heur', 'word_invalid_2': 'wrom', 'word_invalid_3': 'heur', 'word_invalid_4': 'miam'}, {'word_valid': 'diare', 'word_valid_status': 'N', 'word_invalid': 'deabt', 'word_invalid_1': 'rena', 'word_invalid_2': 'ampt', 'word_invalid_3': 'pera', 'word_invalid_4': 'voipt'}, {'word_valid': 'tirea', 'word_valid_status': 'N', 'word_invalid': 'magam', 'word_invalid_1': 'exhil', 'word_invalid_2': 'shoule', 'word_invalid_3': 'thenk', 'word_invalid_4': 'siepa'}, {'word_valid': 'tets', 'word_valid_status': 'N', 'word_invalid': 'sifto', 'word_invalid_1': 'koly', 'word_invalid_2': 'syro', 'word_invalid_3': 'theyr', 'word_invalid_4': 'phel'}, {'word_valid': 'syro', 'word_valid_status': 'N', 'word_invalid': 'actic', 'word_invalid_1': 'vigro', 'word_invalid_2': 'diam', 'word_invalid_3': 'shoule', 'word_invalid_4': 'droch'}, {'word_valid': 'actic', 'word_valid_status': 'N', 'word_invalid': 'lipe', 'word_invalid_1': 'pras', 'word_invalid_2': 'sifto', 'word_invalid_3': 'lios', 'word_invalid_4': 'skir'}, {'word_valid': 'geen', 'word_valid_status': 'N', 'word_invalid': 'sewe', 'word_invalid_1': 'woble', 'word_invalid_2': 'bauto', 'word_invalid_3': 'dieft', 'word_invalid_4': 'dusko'}, {'word_valid': 'spiw', 'word_valid_status': 'N', 'word_invalid': 'dary', 'word_invalid_1': 'metta', 'word_invalid_2': 'plif', 'word_invalid_3': 'fluo', 'word_invalid_4': 'rham'}, {'word_valid': 'knim', 'word_valid_status': 'N', 'word_invalid': 'reint', 'word_invalid_1': 'teabs', 'word_invalid_2': 'amet', 'word_invalid_3': 'meaco', 'word_invalid_4': 'spany'}, {'word_valid': 'aguge', 'word_valid_status': 'N', 'word_invalid': 'timay', 'word_invalid_1': 'theal', 'word_invalid_2': 'snire', 'word_invalid_3': 'gyrol', 'word_invalid_4': 'whicb'}, {'word_valid': 'teabs', 'word_valid_status': 'N', 'word_invalid': 'diam', 'word_invalid_1': 'prige', 'word_invalid_2': 'pelk', 'word_invalid_3': 'rysap', 'word_invalid_4': 'woble'}, {'word_valid': 'fiken', 'word_valid_status': 'N', 'word_invalid': 'clead', 'word_invalid_1': 'skir', 'word_invalid_2': 'courd', 'word_invalid_3': 'deabt', 'word_invalid_4': 'coist'}, {'word_valid': 'sweer', 'word_valid_status': 'N', 'word_invalid': 'droch', 'word_invalid_1': 'buoya', 'word_invalid_2': 'soule', 'word_invalid_3': 'sewe', 'word_invalid_4': 'flone'}, {'word_valid': 'lios', 'word_valid_status': 'N', 'word_invalid': 'hemo', 'word_invalid_1': 'agell', 'word_invalid_2': 'timay', 'word_invalid_3': 'dary', 'word_invalid_4': 'thete'}, {'word_valid': 'droch', 'word_valid_status': 'N', 'word_invalid': 'theal', 'word_invalid_1': 'fluo', 'word_invalid_2': 'theal', 'word_invalid_3': 'ascue', 'word_invalid_4': 'reint'}, {'word_valid': 'metta', 'word_valid_status': 'N', 'word_invalid': 'osmeo', 'word_invalid_1': 'galer', 'word_invalid_2': 'gole', 'word_invalid_3': 'exhil', 'word_invalid_4': 'greme'}, {'word_valid': 'flone', 'word_valid_status': 'N', 'word_invalid': 'metta', 'word_invalid_1': 'timay', 'word_invalid_2': 'kint', 'word_invalid_3': 'vare', 'word_invalid_4': 'doil'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Control.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="nreps1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Control"/>
+    <LoopTerminator name="trials"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'word_valid_1': 'satin', 'word_valid_status_1': 'Y', 'word_invalid_0': 'snait', 'word_invalid_01': 'diam', 'word_invalid_02': 'westa', 'word_invalid_03': 'courd', 'word_invalid_04': 'amet', 'font_size': 0.03}, {'word_valid_1': 'louse', 'word_valid_status_1': 'Y', 'word_invalid_0': 'soule', 'word_invalid_01': 'knim', 'word_invalid_02': 'dure', 'word_invalid_03': 'rham', 'word_invalid_04': 'meony', 'font_size': 0.1}, {'word_valid_1': 'kudos', 'word_valid_status_1': 'Y', 'word_invalid_0': 'dusko', 'word_invalid_01': 'snait', 'word_invalid_02': 'ruso', 'word_invalid_03': 'rebem', 'word_invalid_04': 'chene', 'font_size': 0.1}, {'word_valid_1': 'sort', 'word_valid_status_1': 'Y', 'word_invalid_0': 'tros', 'word_invalid_01': 'clead', 'word_invalid_02': 'osmeo', 'word_invalid_03': 'aboot', 'word_invalid_04': 'rysap', 'font_size': 0.1}, {'word_valid_1': 'ogle', 'word_valid_status_1': 'Y', 'word_invalid_0': 'gole', 'word_invalid_01': 'voipt', 'word_invalid_02': 'doil', 'word_invalid_03': 'whicb', 'word_invalid_04': 'scak', 'font_size': 0.03}, {'word_valid_1': 'organ', 'word_valid_status_1': 'Y', 'word_invalid_0': 'agorn', 'word_invalid_01': 'westa', 'word_invalid_02': 'meaco', 'word_invalid_03': 'hemo', 'word_invalid_04': 'ptay', 'font_size': 0.1}, {'word_valid_1': 'owlet', 'word_valid_status_1': 'Y', 'word_invalid_0': 'towle', 'word_invalid_01': 'gnaf', 'word_invalid_02': 'viel', 'word_invalid_03': 'snure', 'word_invalid_04': 'mone', 'font_size': 0.03}, {'word_valid_1': 'ivory', 'word_valid_status_1': 'Y', 'word_invalid_0': 'viory', 'word_invalid_01': 'gyrol', 'word_invalid_02': 'scak', 'word_invalid_03': 'woble', 'word_invalid_04': 'prie', 'font_size': 0.1}, {'word_valid_1': 'knit', 'word_valid_status_1': 'Y', 'word_invalid_0': 'kint', 'word_invalid_01': 'zear', 'word_invalid_02': 'thore', 'word_invalid_03': 'mause', 'word_invalid_04': 'meaco', 'font_size': 0.03}, {'word_valid_1': 'chalk', 'word_valid_status_1': 'Y', 'word_invalid_0': 'halck', 'word_invalid_01': 'hyrme', 'word_invalid_02': 'tishe', 'word_invalid_03': 'dure', 'word_invalid_04': 'grem', 'font_size': 0.03}, {'word_valid_1': 'help', 'word_valid_status_1': 'Y', 'word_invalid_0': 'phel', 'word_invalid_01': 'amet', 'word_invalid_02': 'spany', 'word_invalid_03': 'colel', 'word_invalid_04': 'buoya', 'font_size': 0.03}, {'word_valid_1': 'felon', 'word_valid_status_1': 'Y', 'word_invalid_0': 'flone', 'word_invalid_01': 'droch', 'word_invalid_02': 'heur', 'word_invalid_03': 'diep', 'word_invalid_04': 'dite', 'font_size': 0.1}, {'word_valid_1': 'teeth', 'word_valid_status_1': 'Y', 'word_invalid_0': 'thete', 'word_invalid_01': 'ruso', 'word_invalid_02': 'leam', 'word_invalid_03': 'lise', 'word_invalid_04': 'lios', 'font_size': 0.1}, {'word_valid_1': 'maim', 'word_valid_status_1': 'Y', 'word_invalid_0': 'miam', 'word_invalid_01': 'tirea', 'word_invalid_02': 'jeyll', 'word_invalid_03': 'whak', 'word_invalid_04': 'snure', 'font_size': 0.1}, {'word_valid_1': 'chair', 'word_valid_status_1': 'Y', 'word_invalid_0': 'raich', 'word_invalid_01': 'raich', 'word_invalid_02': 'mone', 'word_invalid_03': 'tirea', 'word_invalid_04': 'agorn', 'font_size': 0.1}, {'word_valid_1': 'irks', 'word_valid_status_1': 'Y', 'word_invalid_0': 'skir', 'word_invalid_01': 'sewe', 'word_invalid_02': 'diep', 'word_invalid_03': 'flone', 'word_invalid_04': 'diam', 'font_size': 0.03}, {'word_valid_1': 'amuse', 'word_valid_status_1': 'Y', 'word_invalid_0': 'mause', 'word_invalid_01': 'kint', 'word_invalid_02': 'ptay', 'word_invalid_03': 'magam', 'word_invalid_04': 'timay', 'font_size': 0.1}, {'word_valid_1': 'jelly', 'word_valid_status_1': 'Y', 'word_invalid_0': 'jeyll', 'word_invalid_01': 'flone', 'word_invalid_02': 'prie', 'word_invalid_03': 'liso', 'word_invalid_04': 'seter', 'font_size': 0.03}, {'word_valid_1': 'germ', 'word_valid_status_1': 'Y', 'word_invalid_0': 'grem', 'word_invalid_01': 'viory', 'word_invalid_02': 'lise', 'word_invalid_03': 'boye', 'word_invalid_04': 'viory', 'font_size': 0.1}, {'word_valid_1': 'vigor', 'word_valid_status_1': 'Y', 'word_invalid_0': 'vigro', 'word_invalid_01': 'delge', 'word_invalid_02': 'tirea', 'word_invalid_03': 'bive', 'word_invalid_04': 'actic', 'font_size': 0.03}, {'word_valid_1': 'gauge', 'word_valid_status_1': 'Y', 'word_invalid_0': 'aguge', 'word_invalid_01': 'colel', 'word_invalid_02': 'nuat', 'word_invalid_03': 'theal', 'word_invalid_04': 'malb', 'font_size': 0.1}, {'word_valid_1': 'media', 'word_valid_status_1': 'Y', 'word_invalid_0': 'diame', 'word_invalid_01': 'nuat', 'word_invalid_02': 'fren', 'word_invalid_03': 'agorn', 'word_invalid_04': 'osmeo', 'font_size': 0.03}, {'word_valid_1': 'foal', 'word_valid_status_1': 'Y', 'word_invalid_0': 'alof', 'word_invalid_01': 'spiw', 'word_invalid_02': 'aguge', 'word_invalid_03': 'scak', 'word_invalid_04': 'gluid', 'font_size': 0.1}, {'word_valid_1': 'glory', 'word_valid_status_1': 'Y', 'word_invalid_0': 'gyrol', 'word_invalid_01': 'tros', 'word_invalid_02': 'ranea', 'word_invalid_03': 'diam', 'word_invalid_04': 'raich', 'font_size': 0.03}, {'word_valid_1': 'rift', 'word_valid_status_1': 'Y', 'word_invalid_0': 'trif', 'word_invalid_01': 'bive', 'word_invalid_02': 'unon', 'word_invalid_03': 'vigro', 'word_invalid_04': 'deabt', 'font_size': 0.03}, {'word_valid_1': 'gluid', 'word_valid_status_1': 'N', 'word_invalid_0': 'duen', 'word_invalid_01': 'tishe', 'word_invalid_02': 'pras', 'word_invalid_03': 'viory', 'word_invalid_04': 'lucka', 'font_size': 0.03}, {'word_valid_1': 'gnaf', 'word_valid_status_1': 'N', 'word_invalid_0': 'theyr', 'word_invalid_01': 'leam', 'word_invalid_02': 'laip', 'word_invalid_03': 'daloh', 'word_invalid_04': 'cimim', 'font_size': 0.03}, {'word_valid_1': 'gayil', 'word_valid_status_1': 'N', 'word_invalid_0': 'greme', 'word_invalid_01': 'miam', 'word_invalid_02': 'phel', 'word_invalid_03': 'siepa', 'word_invalid_04': 'tros', 'font_size': 0.03}, {'word_valid_1': 'scak', 'word_valid_status_1': 'N', 'word_invalid_0': 'woble', 'word_invalid_01': 'diare', 'word_invalid_02': 'lios', 'word_invalid_03': 'poney', 'word_invalid_04': 'lise', 'font_size': 0.1}, {'word_valid_1': 'cimim', 'word_valid_status_1': 'N', 'word_invalid_0': 'dite', 'word_invalid_01': 'meony', 'word_invalid_02': 'delge', 'word_invalid_03': 'meony', 'word_invalid_04': 'delya', 'font_size': 0.1}, {'word_valid_1': 'ruso', 'word_valid_status_1': 'N', 'word_invalid_0': 'geen', 'word_invalid_01': 'ptay', 'word_invalid_02': 'whak', 'word_invalid_03': 'syro', 'word_invalid_04': 'ruso', 'font_size': 0.03}, {'word_valid_1': 'woble', 'word_valid_status_1': 'N', 'word_invalid_0': 'ruso', 'word_invalid_01': 'evol', 'word_invalid_02': 'tets', 'word_invalid_03': 'laip', 'word_invalid_04': 'tishe', 'font_size': 0.03}, {'word_valid_1': 'mleko', 'word_valid_status_1': 'N', 'word_invalid_0': 'diep', 'word_invalid_01': 'snire', 'word_invalid_02': 'dite', 'word_invalid_03': 'adlet', 'word_invalid_04': 'zear', 'font_size': 0.1}, {'word_valid_1': 'fluo', 'word_valid_status_1': 'N', 'word_invalid_0': 'spiw', 'word_invalid_01': 'bowln', 'word_invalid_02': 'evol', 'word_invalid_03': 'aguge', 'word_invalid_04': 'poney', 'font_size': 0.03}, {'word_valid_1': 'lewld', 'word_valid_status_1': 'N', 'word_invalid_0': 'teub', 'word_invalid_01': 'aguge', 'word_invalid_02': 'delya', 'word_invalid_03': 'clead', 'word_invalid_04': 'hemo', 'font_size': 0.1}, {'word_valid_1': 'chont', 'word_valid_status_1': 'N', 'word_invalid_0': 'amet', 'word_invalid_01': 'twen', 'word_invalid_02': 'ascue', 'word_invalid_03': 'prige', 'word_invalid_04': 'trif', 'font_size': 0.1}, {'word_valid_1': 'tros', 'word_valid_status_1': 'N', 'word_invalid_0': 'bauto', 'word_invalid_01': 'shoule', 'word_invalid_02': 'dary', 'word_invalid_03': 'mone', 'word_invalid_04': 'delge', 'font_size': 0.1}, {'word_valid_1': 'reint', 'word_valid_status_1': 'N', 'word_invalid_0': 'galer', 'word_invalid_01': 'thore', 'word_invalid_02': 'hemo', 'word_invalid_03': 'chont', 'word_invalid_04': 'gyrol', 'font_size': 0.1}, {'word_valid_1': 'mause', 'word_valid_status_1': 'N', 'word_invalid_0': 'courd', 'word_invalid_01': 'plif', 'word_invalid_02': 'bive', 'word_invalid_03': 'tros', 'word_invalid_04': 'wrom', 'font_size': 0.03}, {'word_valid_1': 'wrom', 'word_valid_status_1': 'N', 'word_invalid_0': 'thore', 'word_invalid_01': 'geen', 'word_invalid_02': 'whicb', 'word_invalid_03': 'gayil', 'word_invalid_04': 'vare', 'font_size': 0.03}, {'word_valid_1': 'koly', 'word_valid_status_1': 'N', 'word_invalid_0': 'whak', 'word_invalid_01': 'sifto', 'word_invalid_02': 'sabil', 'word_invalid_03': 'diare', 'word_invalid_04': 'magam', 'font_size': 0.1}, {'word_valid_1': 'ascue', 'word_valid_status_1': 'N', 'word_invalid_0': 'delya', 'word_invalid_01': 'sweer', 'word_invalid_02': 'liso', 'word_invalid_03': 'thore', 'word_invalid_04': 'queak', 'font_size': 0.03}, {'word_valid_1': 'ranea', 'word_valid_status_1': 'N', 'word_invalid_0': 'tets', 'word_invalid_01': 'actic', 'word_invalid_02': 'mech', 'word_invalid_03': 'raich', 'word_invalid_04': 'syro', 'font_size': 0.03}, {'word_valid_1': 'colel', 'word_valid_status_1': 'N', 'word_invalid_0': 'gluid', 'word_invalid_01': 'duen', 'word_invalid_02': 'boye', 'word_invalid_03': 'teub', 'word_invalid_04': 'halck', 'font_size': 0.1}, {'word_valid_1': 'laip', 'word_valid_status_1': 'N', 'word_invalid_0': 'tirea', 'word_invalid_01': 'dite', 'word_invalid_02': 'tros', 'word_invalid_03': 'sheap', 'word_invalid_04': 'westa', 'font_size': 0.1}, {'word_valid_1': 'siepa', 'word_valid_status_1': 'N', 'word_invalid_0': 'colel', 'word_invalid_01': 'malb', 'word_invalid_02': 'daloh', 'word_invalid_03': 'thete', 'word_invalid_04': 'rujor', 'font_size': 0.03}, {'word_valid_1': 'poney', 'word_valid_status_1': 'N', 'word_invalid_0': 'lucka', 'word_invalid_01': 'leod', 'word_invalid_02': 'fiken', 'word_invalid_03': 'evol', 'word_invalid_04': 'rena', 'font_size': 0.1}, {'word_valid_1': 'rysap', 'word_valid_status_1': 'N', 'word_invalid_0': 'liso', 'word_invalid_01': 'dusko', 'word_invalid_02': 'mause', 'word_invalid_03': 'dusko', 'word_invalid_04': 'diare', 'font_size': 0.1}, {'word_valid_1': 'shoule', 'word_valid_status_1': 'N', 'word_invalid_0': 'buoya', 'word_invalid_01': 'greme', 'word_invalid_02': 'lipe', 'word_invalid_03': 'gnaf', 'word_invalid_04': 'whak', 'font_size': 0.03}, {'word_valid_1': 'malb', 'word_valid_status_1': 'N', 'word_invalid_0': 'meony', 'word_invalid_01': 'ranea', 'word_invalid_02': 'greme', 'word_invalid_03': 'unon', 'word_invalid_04': 'laip', 'font_size': 0.03}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Font_Size.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="nreps2" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Font_Size"/>
+    <LoopTerminator name="trials_2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_3">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'word_valid_2': 'ampt', 'word_valid_status_2': 'N', 'word_invalid_00': 'rysap', 'word_invalid_001': 'tets', 'word_invalid_002': 'magam', 'word_invalid_003': 'bowln', 'word_invalid_004': 'aboot', 'speed_res': 4}, {'word_valid_2': 'aboot', 'word_valid_status_2': 'N', 'word_invalid_00': 'viel', 'word_invalid_001': 'reint', 'word_invalid_002': 'gnaf', 'word_invalid_003': 'delge', 'word_invalid_004': 'dure', 'speed_res': 10}, {'word_valid_2': 'lucka', 'word_valid_status_2': 'N', 'word_invalid_00': 'plif', 'word_invalid_001': 'boye', 'word_invalid_002': 'miam', 'word_invalid_003': 'gluid', 'word_invalid_004': 'colel', 'speed_res': 10}, {'word_valid_2': 'ampt', 'word_valid_status_2': 'N', 'word_invalid_00': 'adlet', 'word_invalid_001': 'thete', 'word_invalid_002': 'thenk', 'word_invalid_003': 'geen', 'word_invalid_004': 'evol', 'speed_res': 4}, {'word_valid_2': 'westa', 'word_valid_status_2': 'N', 'word_invalid_00': 'boye', 'word_invalid_001': 'chene', 'word_invalid_002': 'clead', 'word_invalid_003': 'pelk', 'word_invalid_004': 'lewld', 'speed_res': 4}, {'word_valid_2': 'prige', 'word_valid_status_2': 'N', 'word_invalid_00': 'rebem', 'word_invalid_001': 'mech', 'word_invalid_002': 'lucka', 'word_invalid_003': 'queak', 'word_invalid_004': 'leod', 'speed_res': 4}, {'word_valid_2': 'dieft', 'word_valid_status_2': 'N', 'word_invalid_00': 'cimim', 'word_invalid_001': 'mause', 'word_invalid_002': 'voipt', 'word_invalid_003': 'buoya', 'word_invalid_004': 'sabil', 'speed_res': 4}, {'word_valid_2': 'sabil', 'word_valid_status_2': 'N', 'word_invalid_00': 'prige', 'word_invalid_001': 'gole', 'word_invalid_002': 'siepa', 'word_invalid_003': 'poce', 'word_invalid_004': 'adlet', 'speed_res': 4}, {'word_valid_2': 'koly', 'word_valid_status_2': 'N', 'word_invalid_00': 'syro', 'word_invalid_001': 'dure', 'word_invalid_002': 'woble', 'word_invalid_003': 'hyrme', 'word_invalid_004': 'gole', 'speed_res': 4}, {'word_valid_2': 'teub', 'word_valid_status_2': 'N', 'word_invalid_00': 'chont', 'word_invalid_001': 'delya', 'word_invalid_002': 'viory', 'word_invalid_003': 'metta', 'word_invalid_004': 'pelk', 'speed_res': 4}, {'word_valid_2': 'snait', 'word_valid_status_2': 'N', 'word_invalid_00': 'lise', 'word_invalid_001': 'phedt', 'word_invalid_002': 'fluo', 'word_invalid_003': 'diame', 'word_invalid_004': 'boye', 'speed_res': 10}, {'word_valid_2': 'daloh', 'word_valid_status_2': 'N', 'word_invalid_00': 'chene', 'word_invalid_001': 'jeyll', 'word_invalid_002': 'agell', 'word_invalid_003': 'koly', 'word_invalid_004': 'daloh', 'speed_res': 10}, {'word_valid_2': 'chene', 'word_valid_status_2': 'N', 'word_invalid_00': 'bowln', 'word_invalid_001': 'gloum', 'word_invalid_002': 'skir', 'word_invalid_003': 'pras', 'word_invalid_004': 'gloum', 'speed_res': 4}, {'word_valid_2': 'galer', 'word_valid_status_2': 'N', 'word_invalid_00': 'ascue', 'word_invalid_001': 'snure', 'word_invalid_002': 'bowln', 'word_invalid_003': 'towle', 'word_invalid_004': 'bauto', 'speed_res': 10}, {'word_valid_2': 'clead', 'word_valid_status_2': 'N', 'word_invalid_00': 'delge', 'word_invalid_001': 'pelk', 'word_invalid_002': 'poce', 'word_invalid_003': 'teabs', 'word_invalid_004': 'dieft', 'speed_res': 10}, {'word_valid_2': 'amet', 'word_valid_status_2': 'N', 'word_invalid_00': 'dieft', 'word_invalid_001': 'alof', 'word_invalid_002': 'sewe', 'word_invalid_003': 'leam', 'word_invalid_004': 'towle', 'speed_res': 4}, {'word_valid_2': 'whak', 'word_valid_status_2': 'N', 'word_invalid_00': 'fren', 'word_invalid_001': 'meaco', 'word_invalid_002': 'colel', 'word_invalid_003': 'duen', 'word_invalid_004': 'snire', 'speed_res': 10}, {'word_valid_2': 'theal', 'word_valid_status_2': 'N', 'word_invalid_00': 'agell', 'word_invalid_001': 'doil', 'word_invalid_002': 'rysap', 'word_invalid_003': 'greme', 'word_invalid_004': 'thore', 'speed_res': 4}, {'word_valid_2': 'tishe', 'word_valid_status_2': 'N', 'word_invalid_00': 'phedt', 'word_invalid_001': 'jelew', 'word_invalid_002': 'gayil', 'word_invalid_003': 'mech', 'word_invalid_004': 'spiw', 'speed_res': 10}, {'word_valid_2': 'vare', 'word_valid_status_2': 'N', 'word_invalid_00': 'heur', 'word_invalid_001': 'spany', 'word_invalid_002': 'raich', 'word_invalid_003': 'rabb', 'word_invalid_004': 'tets', 'speed_res': 10}, {'word_valid_2': 'heur', 'word_valid_status_2': 'N', 'word_invalid_00': 'rujor', 'word_invalid_001': 'vare', 'word_invalid_002': 'pera', 'word_invalid_003': 'spiw', 'word_invalid_004': 'fren', 'speed_res': 10}, {'word_valid_2': 'nual', 'word_valid_status_2': 'N', 'word_invalid_00': 'poney', 'word_invalid_001': 'dary', 'word_invalid_002': 'diare', 'word_invalid_003': 'knim', 'word_invalid_004': 'koly', 'speed_res': 4}, {'word_valid_2': 'rujor', 'word_valid_status_2': 'N', 'word_invalid_00': 'nuat', 'word_invalid_001': 'sheap', 'word_invalid_002': 'jelew', 'word_invalid_003': 'skir', 'word_invalid_004': 'courd', 'speed_res': 4}, {'word_valid_2': 'meaco', 'word_valid_status_2': 'N', 'word_invalid_00': 'gloum', 'word_invalid_001': 'coist', 'word_invalid_002': 'galer', 'word_invalid_003': 'viel', 'word_invalid_004': 'ascue', 'speed_res': 10}, {'word_valid_2': 'queak', 'word_valid_status_2': 'N', 'word_invalid_00': 'koly', 'word_invalid_001': 'cimim', 'word_invalid_002': 'adlet', 'word_invalid_003': 'tets', 'word_invalid_004': 'metta', 'speed_res': 4}, {'word_valid_2': 'love', 'word_valid_status_2': 'Y', 'word_invalid_00': 'evol', 'word_invalid_001': 'chont', 'word_invalid_002': 'vare', 'word_invalid_003': 'leod', 'word_invalid_004': 'aguge', 'speed_res': 10}, {'word_valid_2': 'anvil', 'word_valid_status_2': 'Y', 'word_invalid_00': 'lavin', 'word_invalid_001': 'towle', 'word_invalid_002': 'diame', 'word_invalid_003': 'twen', 'word_invalid_004': 'mech', 'speed_res': 4}, {'word_valid_2': 'basil', 'word_valid_status_2': 'Y', 'word_invalid_00': 'sabil', 'word_invalid_001': 'teub', 'word_invalid_002': 'malb', 'word_invalid_003': 'doil', 'word_invalid_004': 'sewe', 'speed_res': 10}, {'word_valid_2': 'rude', 'word_valid_status_2': 'Y', 'word_invalid_00': 'dure', 'word_invalid_001': 'liso', 'word_invalid_002': 'rham', 'word_invalid_003': 'droch', 'word_invalid_004': 'vigro', 'speed_res': 10}, {'word_valid_2': 'cope', 'word_valid_status_2': 'Y', 'word_invalid_00': 'poce', 'word_invalid_001': 'daloh', 'word_invalid_002': 'zear', 'word_invalid_003': 'halck', 'word_invalid_004': 'thenk', 'speed_res': 4}, {'word_valid_2': 'should', 'word_valid_status_2': 'Y', 'word_invalid_00': 'shoule', 'word_invalid_001': 'aboot', 'word_invalid_002': 'aboot', 'word_invalid_003': 'ampt', 'word_invalid_004': 'unon', 'speed_res': 4}, {'word_valid_2': 'harm', 'word_valid_status_2': 'Y', 'word_invalid_00': 'rham', 'word_invalid_001': 'whicb', 'word_invalid_002': 'queak', 'word_invalid_003': 'rena', 'word_invalid_004': 'gayil', 'speed_res': 4}, {'word_valid_2': 'sewer', 'word_valid_status_2': 'Y', 'word_invalid_00': 'sweer', 'word_invalid_001': 'rham', 'word_invalid_002': 'seter', 'word_invalid_003': 'jelew', 'word_invalid_004': 'fiken', 'speed_res': 4}, {'word_valid_2': 'ahold', 'word_valid_status_2': 'Y', 'word_invalid_00': 'daloh', 'word_invalid_001': 'queak', 'word_invalid_002': 'chont', 'word_invalid_003': 'sabil', 'word_invalid_004': 'bowln', 'speed_res': 10}, {'word_valid_2': 'terse', 'word_valid_status_2': 'Y', 'word_invalid_00': 'seter', 'word_invalid_001': 'hemo', 'word_invalid_002': 'reint', 'word_invalid_003': 'trif', 'word_invalid_004': 'twen', 'speed_res': 10}, {'word_valid_2': 'reap', 'word_valid_status_2': 'Y', 'word_invalid_00': 'pera', 'word_invalid_001': 'rujor', 'word_invalid_002': 'droch', 'word_invalid_003': 'gole', 'word_invalid_004': 'shoule', 'speed_res': 10}, {'word_valid_2': 'mink', 'word_valid_status_2': 'Y', 'word_invalid_00': 'knim', 'word_invalid_001': 'wrom', 'word_invalid_002': 'snure', 'word_invalid_003': 'dite', 'word_invalid_004': 'agell', 'speed_res': 10}, {'word_valid_2': 'pivot', 'word_valid_status_2': 'Y', 'word_invalid_00': 'voipt', 'word_invalid_001': 'viel', 'word_invalid_002': 'chene', 'word_invalid_003': 'westa', 'word_invalid_004': 'bive', 'speed_res': 4}, {'word_valid_2': 'rave', 'word_valid_status_2': 'Y', 'word_invalid_00': 'vare', 'word_invalid_001': 'agorn', 'word_invalid_002': 'snait', 'word_invalid_003': 'reint', 'word_invalid_004': 'lavin', 'speed_res': 10}, {'word_valid_2': 'jewel', 'word_valid_status_2': 'Y', 'word_invalid_00': 'jelew', 'word_invalid_001': 'deabt', 'word_invalid_002': 'knim', 'word_invalid_003': 'spany', 'word_invalid_004': 'fluo', 'speed_res': 4}, {'word_valid_2': 'rasp', 'word_valid_status_2': 'Y', 'word_invalid_00': 'pras', 'word_invalid_001': 'theyr', 'word_invalid_002': 'rena', 'word_invalid_003': 'galer', 'word_invalid_004': 'heur', 'speed_res': 10}, {'word_valid_2': 'idol', 'word_valid_status_2': 'Y', 'word_invalid_00': 'doil', 'word_invalid_001': 'gluid', 'word_invalid_002': 'sweer', 'word_invalid_003': 'zear', 'word_invalid_004': 'teabs', 'speed_res': 10}, {'word_valid_2': 'newt', 'word_valid_status_2': 'Y', 'word_invalid_00': 'twen', 'word_invalid_001': 'bauto', 'word_invalid_002': 'alof', 'word_invalid_003': 'alof', 'word_invalid_004': 'snait', 'speed_res': 10}, {'word_valid_2': 'gaily', 'word_valid_status_2': 'Y', 'word_invalid_00': 'gayil', 'word_invalid_001': 'rysap', 'word_invalid_002': 'duen', 'word_invalid_003': 'jeyll', 'word_invalid_004': 'sifto', 'speed_res': 4}, {'word_valid_2': 'noun', 'word_valid_status_2': 'Y', 'word_invalid_00': 'unon', 'word_invalid_001': 'lipe', 'word_invalid_002': 'flone', 'word_invalid_003': 'agell', 'word_invalid_004': 'ampt', 'speed_res': 10}, {'word_valid_2': 'balm', 'word_valid_status_2': 'Y', 'word_invalid_00': 'malb', 'word_invalid_001': 'halck', 'word_invalid_002': 'hyrme', 'word_invalid_003': 'ptay', 'word_invalid_004': 'exhil', 'speed_res': 10}, {'word_valid_2': 'pier', 'word_valid_status_2': 'Y', 'word_invalid_00': 'prie', 'word_invalid_001': 'fiken', 'word_invalid_002': 'rebem', 'word_invalid_003': 'lavin', 'word_invalid_004': 'kint', 'speed_res': 4}, {'word_valid_2': 'think', 'word_valid_status_2': 'Y', 'word_invalid_00': 'thenk', 'word_invalid_001': 'poce', 'word_invalid_002': 'actic', 'word_invalid_003': 'osmeo', 'word_invalid_004': 'leam', 'speed_res': 4}, {'word_valid_2': 'worm', 'word_valid_status_2': 'Y', 'word_invalid_00': 'wrom', 'word_invalid_001': 'whak', 'word_invalid_002': 'phedt', 'word_invalid_003': 'ranea', 'word_invalid_004': 'duen', 'speed_res': 4}, {'word_valid_2': 'cameo', 'word_valid_status_2': 'Y', 'word_invalid_00': 'meaco', 'word_invalid_001': 'osmeo', 'word_invalid_002': 'thete', 'word_invalid_003': 'snait', 'word_invalid_004': 'theal', 'speed_res': 10}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Speed.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="nreps3" valType="num"/>
+      <Param name="name" updates="None" val="trials_3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Speed_Res"/>
+    <LoopTerminator name="trials_3"/>
+    <LoopTerminator name="trials_4"/>
+    <Routine name="Thank_You"/>
+  </Flow>
+</PsychoPy2experiment>
